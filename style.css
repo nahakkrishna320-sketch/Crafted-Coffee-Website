@@ -1,0 +1,421 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.Navbar {
+  background-color: #f2e2da;
+  padding: 15px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.Navbar .nav-left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-left a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-left .cart-div {
+  position: relative;
+}
+
+.cart-div i {
+  font-size: 1.3rem;
+}
+
+.cart-div .cart-count {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  position: absolute;
+  border-radius: 50%;
+  color: white;
+  top: -23px;
+  right: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.nav-right .logo {
+  width: 70%;
+}
+
+/* Hero-section CSS Start Here */
+.Hero-section {
+  width: 100%;
+  padding: 40px 7%;
+  background-color: #f2e2da;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.Hero-section .left {
+  width: 50%;
+  height: 100%;
+}
+.left .hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.Hero-section .right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.right .right-img {
+  width: 20%;
+}
+.right .right-heading {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.right .right-para {
+  font-size: 1.1rem;
+  font-style: italic;
+}
+.right .rd-btn {
+  padding: 0.7rem 1.2rem;
+  font-size: 1.2rem;
+  background-color: #6b1831;
+  color: white;
+  border: none;
+}
+
+/* Card-section CSS Start Here */
+.Card-section {
+  width: 100%;
+  padding: 50px 7%;
+
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.Card-section .Card {
+  width: 25%;
+  background-color: #6b1831;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 2.9rem 2rem;
+  border-radius: 10px;
+}
+.Card .card-heading {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.Card .card-para1 {
+  font-size: 0.9rem;
+  text-align: center;
+  font-style: italic;
+}
+.Card .card-para2 {
+  font-size: 0.9rem;
+  text-align: center;
+  font-style: italic;
+}
+
+/* coffee-varient-section CSS Start  */
+.coffee-varient-section {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  padding: 100px 7%;
+  align-items: center;
+}
+.coffee-varient-section .cv-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.coffee-varient-section .cv-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+}
+.cv-right .icecoffee {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.cv-left .cv-content {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+}
+.cv-content .para-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.para-div .para-head {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 22px;
+}
+
+/* ourproduct-section Css Start Here */
+.ourproduct-section {
+  width: 100%;
+  padding: 100px 7%;
+}
+.ourproduct-section .Our-Product-heading {
+  font-size: 2.4rem;
+  text-align: center;
+}
+.ourproduct-section .top-div {
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.ourproduct-section .Your-coffee-Card-Section {
+  width: 100%;
+  height: 100%;
+}
+.Your-coffee-Card-Section .first-row {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.first-row .Card {
+  width: 25%;
+  background-color: #f2e2da;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 15px;
+  padding: 12px;
+}
+.Card .img-div {
+  width: 100%;
+  height: 200px;
+}
+.img-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.Card .card-heading {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: start;
+}
+.Card .price-btn-div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.price-btn-div .price {
+  font-weight: 500;
+}
+.price-btn-div .btn {
+  padding: 0.3rem 1rem;
+  background-color: #6b1831;
+  color: white;
+  border: none;
+}
+
+.our-blog-section {
+  width: 100%;
+  padding: 100px 7%;
+}
+.our-blog-section .Our-Blog {
+  font-size: 1.7rem;
+  text-align: center;
+}
+.our-blog-section .Blog-Card-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+  margin-top: 30px;
+}
+.Blog-Card-div .Blog-card {
+  width: 25%;
+  background-color: #f2e2da;
+  border-radius: 10px;
+  color: #595048;
+}
+.Blog-card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+.Blog-card .blog-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 1.1rem;
+}
+.blog-content .date {
+  text-align: end;
+  font-size: 0.9rem;
+}
+
+/* Gallery-section  Css Start Here */
+
+.Gallery-section {
+  width: 100%;
+  display: flex;
+}
+.Gallery-section .img-div {
+  width: 25%;
+}
+.img-div img {
+  width: 100%;
+}
+/* Footer-section CSS Start  */
+.Footer-section {
+  width: 100%;
+  padding: 50px 7%;
+  background-color: #42001e;
+  margin-top: -5px;
+}
+.Footer-section .menu-div {
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 30px;
+}
+.Footer-section .search-section {
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.search-section .input-search {
+  width: 40%;
+  background-color: transparent;
+  padding: 0.7rem;
+  border: none;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+}
+.search-section .Subscribe-btn {
+  padding: 0.7rem 1rem;
+  border: none;
+  text-transform: uppercase;
+}
+.social-icons {
+  width: 100%;
+  padding: 5px;
+  color: white;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+@media (max-width: 576px) {
+  .Navbar .nav-left {
+    display: none;
+  }
+  .Navbar .nav-right {
+    display: none;
+  }
+  .Navbar .Coffee-Web {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .Hero-section {
+    flex-direction: column-reverse;
+    padding: 70px 7%;
+  }
+  .Hero-section .left {
+    width: 100%;
+  }
+  .Hero-section .right {
+    width: 100%;
+  }
+  .Card-section {
+    flex-direction: column;
+  }
+  .Card-section .Card {
+    width: 100%;
+  }
+  .coffee-varient-section {
+    flex-direction: column;
+  }
+  .coffee-varient-section .cv-left {
+    width: 100%;
+  }
+  .coffee-varient-section .cv-right {
+    width: 100%;
+  }
+  .ourproduct-section .top-div {
+    flex-direction: column;
+  }
+  .Your-coffee-Card-Section .first-row {
+    flex-direction: column;
+  }
+  .first-row .Card {
+    width: 100%;
+  }
+  .our-blog-section .Blog-Card-div {
+    flex-direction: column;
+  }
+  .Blog-Card-div .Blog-card {
+    width: 100%;
+  }
+  .Gallery-section {
+    flex-direction: column;
+  }
+  .Gallery-section .img-div {
+    width: 100%;
+    margin-top: -10px;
+  }
+  .Footer-section .menu-div {
+    font-size: 0.6rem;
+  }
+  .search-section .input-search {
+    width: 60%;
+  }
+  
+}
+@media (min-width: 576px) {
+  .Navbar .Coffee-Web {
+    display: none;
+    font-size: 5rem;
+  }
+  .Navbar .menu {
+    display: none;
+  }
+}
